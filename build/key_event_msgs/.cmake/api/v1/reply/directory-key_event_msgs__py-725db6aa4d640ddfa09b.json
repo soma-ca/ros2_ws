@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "key_event_msgs__py",
+		"source" : "/home/ubuntu/ros2_ws/build/key_event_msgs/key_event_msgs__py"
+	}
+}

@@ -1,0 +1,202 @@
+[0.042s] Invoking command in '/home/ubuntu/ros2_ws/build/key_event_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_nav_pkg:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/key_event_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/key_event_msgs
+[0.147s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.435s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.802s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.939s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.060s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.112s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.854s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.882s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.891s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.962s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.962s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.963s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.963s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.016s] -- Found PythonExtra: .so  
+[3.133s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.221s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.226s] -- Added test 'lint_cmake' to check CMake code style
+[3.228s] -- Added test 'xmllint' to check XML markup files
+[3.236s] -- Configuring done
+[3.335s] -- Generating done
+[3.349s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/key_event_msgs
+[3.356s] Invoked command in '/home/ubuntu/ros2_ws/build/key_event_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_nav_pkg:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/key_event_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/key_event_msgs
+[3.360s] Invoking command in '/home/ubuntu/ros2_ws/build/key_event_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_nav_pkg:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/key_event_msgs -- -j12 -l12
+[3.430s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.458s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.473s] [  6%] Built target ament_cmake_python_symlink_key_event_msgs
+[3.952s] [  6%] Built target key_event_msgs__cpp
+[3.966s] [  9%] [32mBuilding C object CMakeFiles/key_event_msgs__rosidl_generator_c.dir/rosidl_generator_c/key_event_msgs/msg/detail/key_event__functions.c.o[0m
+[3.967s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.972s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.973s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.008s] running egg_info
+[4.010s] creating key_event_msgs.egg-info
+[4.011s] writing key_event_msgs.egg-info/PKG-INFO
+[4.012s] writing dependency_links to key_event_msgs.egg-info/dependency_links.txt
+[4.013s] writing top-level names to key_event_msgs.egg-info/top_level.txt
+[4.014s] writing manifest file 'key_event_msgs.egg-info/SOURCES.txt'
+[4.020s] reading manifest file 'key_event_msgs.egg-info/SOURCES.txt'
+[4.021s] writing manifest file 'key_event_msgs.egg-info/SOURCES.txt'
+[4.056s] [ 22%] [32m[1mLinking C shared library libkey_event_msgs__rosidl_generator_c.so[0m
+[4.081s] [ 22%] Built target ament_cmake_python_build_key_event_msgs_egg
+[4.116s] [ 22%] Built target key_event_msgs__rosidl_generator_c
+[4.131s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.131s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.139s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.479s] [ 35%] [32mBuilding CXX object CMakeFiles/key_event_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/key_event_msgs/msg/detail/key_event__type_support.cpp.o[0m
+[4.538s] [ 38%] [32mBuilding CXX object CMakeFiles/key_event_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/key_event_msgs/msg/key_event__type_support.cpp.o[0m
+[4.550s] [ 41%] [32mBuilding CXX object CMakeFiles/key_event_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/key_event_msgs/msg/detail/dds_fastrtps/key_event__type_support.cpp.o[0m
+[4.685s] [ 45%] [32mBuilding CXX object CMakeFiles/key_event_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/key_event_msgs/msg/key_event__type_support.cpp.o[0m
+[4.697s] [ 48%] [32mBuilding C object CMakeFiles/key_event_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/key_event_msgs/msg/detail/key_event__type_support.c.o[0m
+[4.721s] [ 51%] [32mBuilding CXX object CMakeFiles/key_event_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/key_event_msgs/msg/detail/key_event__type_support_c.cpp.o[0m
+[4.724s] [ 54%] [32m[1mLinking CXX shared library libkey_event_msgs__rosidl_typesupport_c.so[0m
+[4.756s] [ 58%] [32m[1mLinking C shared library libkey_event_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.798s] [ 58%] Built target key_event_msgs__rosidl_typesupport_c
+[4.810s] [ 58%] Built target key_event_msgs__rosidl_typesupport_introspection_c
+[4.937s] [ 61%] [32m[1mLinking CXX shared library libkey_event_msgs__rosidl_typesupport_cpp.so[0m
+[5.002s] [ 61%] Built target key_event_msgs__rosidl_typesupport_cpp
+[5.050s] [ 64%] [32m[1mLinking CXX shared library libkey_event_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.108s] [ 64%] Built target key_event_msgs__rosidl_typesupport_introspection_cpp
+[5.132s] [ 67%] [32m[1mLinking CXX shared library libkey_event_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.168s] [ 70%] [32m[1mLinking CXX shared library libkey_event_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.230s] [ 70%] Built target key_event_msgs__rosidl_typesupport_fastrtps_cpp
+[5.286s] [ 70%] Built target key_event_msgs__rosidl_typesupport_fastrtps_c
+[5.327s] [ 70%] Built target key_event_msgs
+[5.377s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.979s] [ 74%] Built target key_event_msgs__py
+[6.005s] [ 77%] [32mBuilding C object CMakeFiles/key_event_msgs__rosidl_generator_py.dir/rosidl_generator_py/key_event_msgs/msg/_key_event_s.c.o[0m
+[6.114s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/key_event_msgs/libkey_event_msgs__rosidl_generator_py.so[0m
+[6.165s] [ 80%] Built target key_event_msgs__rosidl_generator_py
+[6.195s] [ 83%] [32mBuilding C object CMakeFiles/key_event_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/key_event_msgs/_key_event_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.197s] [ 87%] [32mBuilding C object CMakeFiles/key_event_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/key_event_msgs/_key_event_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.198s] [ 90%] [32mBuilding C object CMakeFiles/key_event_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/key_event_msgs/_key_event_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.301s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/key_event_msgs/key_event_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.302s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/key_event_msgs/key_event_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.309s] [100%] [32m[1mLinking C shared library rosidl_generator_py/key_event_msgs/key_event_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.344s] [100%] Built target key_event_msgs__rosidl_typesupport_c__pyext
+[6.346s] [100%] Built target key_event_msgs__rosidl_typesupport_introspection_c__pyext
+[6.348s] [100%] Built target key_event_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.361s] Invoked command in '/home/ubuntu/ros2_ws/build/key_event_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_nav_pkg:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/key_event_msgs -- -j12 -l12
+[6.374s] Invoking command in '/home/ubuntu/ros2_ws/build/key_event_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_nav_pkg:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/key_event_msgs
+[6.381s] -- Install configuration: ""
+[6.381s] -- Execute custom install script
+[6.385s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/ament_index/resource_index/rosidl_interfaces/key_event_msgs
+[6.399s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__functions.h
+[6.408s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__struct.h
+[6.422s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__type_support.h
+[6.448s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/key_event.h
+[6.476s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.494s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/library_path.sh
+[6.510s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/library_path.dsv
+[6.522s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__rosidl_typesupport_fastrtps_c.h
+[6.533s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.544s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__rosidl_typesupport_introspection_c.h
+[6.556s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.567s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__builder.hpp
+[6.577s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__struct.hpp
+[6.591s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__traits.hpp
+[6.603s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__type_support.hpp
+[6.616s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/key_event.hpp
+[6.631s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.643s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__rosidl_typesupport_fastrtps_cpp.hpp
+[6.657s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.670s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/include/key_event_msgs/key_event_msgs/msg/detail/key_event__rosidl_typesupport_introspection_cpp.hpp
+[6.682s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/pythonpath.sh
+[6.698s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/pythonpath.dsv
+[6.712s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.723s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.734s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.744s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.757s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/__init__.py
+[6.769s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/_key_event_msgs_s.ep.rosidl_typesupport_c.c
+[6.780s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/_key_event_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.790s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/_key_event_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.804s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/key_event_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.815s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/key_event_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.824s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/key_event_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.833s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/libkey_event_msgs__rosidl_generator_py.so
+[6.843s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/msg/__init__.py
+[6.853s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/msg/_key_event.py
+[6.863s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/msg/_key_event_s.c
+[6.873s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/key_event_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.873s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/key_event_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.874s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/key_event_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.875s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/msg/KeyEvent.idl
+[6.886s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/msg/KeyEvent.msg
+[6.899s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/ament_index/resource_index/package_run_dependencies/key_event_msgs
+[6.912s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/ament_index/resource_index/parent_prefix_path/key_event_msgs
+[6.922s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/ament_prefix_path.sh
+[6.933s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/ament_prefix_path.dsv
+[6.943s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/path.sh
+[6.955s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/environment/path.dsv
+[6.964s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/local_setup.bash
+[6.975s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/local_setup.sh
+[6.986s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/local_setup.zsh
+[6.994s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/local_setup.dsv
+[7.005s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/package.dsv
+[7.016s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/ament_index/resource_index/packages/key_event_msgs
+[7.025s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/rosidl_cmake-extras.cmake
+[7.034s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.043s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.055s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.065s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.077s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.090s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.103s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgsConfig.cmake
+[7.112s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgsConfig-version.cmake
+[7.121s] -- Symlinking: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/package.xml
+[7.132s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_generator_c.so
+[7.133s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_generator_c.so" to ""
+[7.133s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_fastrtps_c.so
+[7.133s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.133s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_introspection_c.so
+[7.134s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.134s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_c.so
+[7.134s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_c.so" to ""
+[7.134s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.135s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.135s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_introspection_cpp.so
+[7.135s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.135s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_cpp.so
+[7.136s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_typesupport_cpp.so" to ""
+[7.236s] Listing '/home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs'...
+[7.236s] Compiling '/home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/__init__.py'...
+[7.236s] Listing '/home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/msg'...
+[7.236s] Compiling '/home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/msg/__init__.py'...
+[7.236s] Compiling '/home/ubuntu/ros2_ws/install/key_event_msgs/local/lib/python3.10/dist-packages/key_event_msgs/msg/_key_event.py'...
+[7.241s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_generator_py.so
+[7.241s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/key_event_msgs/lib/libkey_event_msgs__rosidl_generator_py.so" to ""
+[7.241s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_generator_cExport.cmake
+[7.242s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.242s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.242s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.242s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.242s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.243s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_cExport.cmake
+[7.243s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.243s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_generator_cppExport.cmake
+[7.243s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.243s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.244s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.244s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.244s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_cppExport.cmake
+[7.244s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/key_event_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.244s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_generator_pyExport.cmake
+[7.245s] -- Installing: /home/ubuntu/ros2_ws/install/key_event_msgs/share/key_event_msgs/cmake/export_key_event_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.248s] Invoked command in '/home/ubuntu/ros2_ws/build/key_event_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_nav_pkg:/home/ubuntu/airobot_ws/install/yolov8_ros2:/home/ubuntu/airobot_ws/install/waypoint_navi:/home/ubuntu/airobot_ws/install/turtlebot3_teleop:/home/ubuntu/airobot_ws/install/turtlebot3_example:/home/ubuntu/airobot_ws/install/tf_examples:/home/ubuntu/airobot_ws/install/speech_topic:/home/ubuntu/airobot_ws/install/speech_service:/home/ubuntu/airobot_ws/install/speech_action:/home/ubuntu/airobot_ws/install/sample_sm_smach:/home/ubuntu/airobot_ws/install/sample_sm_flexbe_states:/home/ubuntu/airobot_ws/install/ros2_aruco:/home/ubuntu/airobot_ws/install/pseudo_node_service:/home/ubuntu/airobot_ws/install/pseudo_node_action:/home/ubuntu/airobot_ws/install/opencv_ros2:/home/ubuntu/airobot_ws/install/hello:/home/ubuntu/airobot_ws/install/happy_topic:/home/ubuntu/airobot_ws/install/happy_teleop:/home/ubuntu/airobot_ws/install/happy_service:/home/ubuntu/airobot_ws/install/happy_pub_sub:/home/ubuntu/airobot_ws/install/happy_parameter:/home/ubuntu/airobot_ws/install/happy_move:/home/ubuntu/airobot_ws/install/happy_lidar:/home/ubuntu/airobot_ws/install/bringme_service:/home/ubuntu/airobot_ws/install/happy_action:/home/ubuntu/airobot_ws/install/bringme_action:/home/ubuntu/airobot_ws/install/happy:/home/ubuntu/airobot_ws/install/flexbe_webui:/home/ubuntu/airobot_ws/install/flexbe_onboard:/home/ubuntu/airobot_ws/install/flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_mirror:/home/ubuntu/airobot_ws/install/flexbe_input:/home/ubuntu/airobot_ws/install/bringme_sm_flexbe_states:/home/ubuntu/airobot_ws/install/flexbe_core:/home/ubuntu/airobot_ws/install/crane_plus_commander:/home/ubuntu/airobot_ws/install/bringme_sm_smach:/home/ubuntu/airobot_ws/install/amcl_subscriber:/home/ubuntu/airobot_ws/install/airobot_action:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/key_event_msgs

@@ -1,0 +1,3 @@
+[console_scripts]
+goal_nav_ai_node = my_nav_pkg.goal_nav_ai_node:main
+

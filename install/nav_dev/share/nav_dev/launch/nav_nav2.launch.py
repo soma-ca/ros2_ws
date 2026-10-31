@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/nav_dev/launch/nav_nav2.launch.py

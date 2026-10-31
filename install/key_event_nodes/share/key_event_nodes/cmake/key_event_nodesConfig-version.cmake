@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/key_event_nodes/ament_cmake_core/key_event_nodesConfig-version.cmake

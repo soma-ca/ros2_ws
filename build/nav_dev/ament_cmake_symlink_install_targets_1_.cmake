@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ros2_ws/build/nav_dev/teleop_node" "/home/ubuntu/ros2_ws/build/nav_dev/lidar_node" "TARGETS" "teleop_node" "lidar_node" "DESTINATION" "lib/nav_dev")

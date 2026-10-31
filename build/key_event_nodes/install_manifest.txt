@@ -1,0 +1,3 @@
+/home/ubuntu/ros2_ws/install/key_event_nodes/lib/libkey_hit_event_node.so
+/home/ubuntu/ros2_ws/install/key_event_nodes/share/key_event_nodes/cmake/export_key_event_nodesExport.cmake
+/home/ubuntu/ros2_ws/install/key_event_nodes/share/key_event_nodes/cmake/export_key_event_nodesExport-noconfig.cmake

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-df8e8cafe6fa2b064ade.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "key_event_msgs__py",
+					"jsonFile" : "directory-key_event_msgs__py-725db6aa4d640ddfa09b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ubuntu/ros2_ws/build/key_event_msgs/key_event_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "key_event_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_key_event_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_key_event_msgs_egg-23d884d275f8e2f02ae5.json",
+					"name" : "ament_cmake_python_build_key_event_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_key_event_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_key_event_msgs-b73364540439278af31a.json",
+					"name" : "ament_cmake_python_symlink_key_event_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs-dbc57dfc0e993bd395a3.json",
+					"name" : "key_event_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__cpp-130065e447af8891b131.json",
+					"name" : "key_event_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "key_event_msgs__py::@2a9053f0d1ac0f83a630",
+					"jsonFile" : "target-key_event_msgs__py-e45d57e2d5c90f385e33.json",
+					"name" : "key_event_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_generator_c-04e423c99abcb2982a3c.json",
+					"name" : "key_event_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_generator_py-3b6b15dfac2b1d8b7a97.json",
+					"name" : "key_event_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_c-ef378dab5527c4e38cbb.json",
+					"name" : "key_event_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_c__pyext-eb7c353cb71c9d83baf6.json",
+					"name" : "key_event_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_cpp-49dc27e28f75c14ca1b9.json",
+					"name" : "key_event_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_fastrtps_c-dfae513e0e33f31c7a57.json",
+					"name" : "key_event_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_fastrtps_c__pyext-66dd4fe89a6142ec3115.json",
+					"name" : "key_event_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_fastrtps_cpp-b24f78bf2f07c4aba266.json",
+					"name" : "key_event_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_introspection_c-f3e81481acacd41203a1.json",
+					"name" : "key_event_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_introspection_c__pyext-0adf5eee852968ce5157.json",
+					"name" : "key_event_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs__rosidl_typesupport_introspection_cpp-a68338c70995974c660e.json",
+					"name" : "key_event_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "key_event_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-key_event_msgs_uninstall-f233e75cea5c477f9328.json",
+					"name" : "key_event_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9fd8e23e5f1590d2856d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/key_event_msgs",
+		"source" : "/home/ubuntu/ros2_ws/src/key_event_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
